@@ -7,3 +7,4 @@
 
 ## Table of Contents
 1. [Day 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day1) (OOP, Roman to Integer App)<br>
+1. [Day 2](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day2) (Programmatic UI, CollectionView, TableView)<br>
