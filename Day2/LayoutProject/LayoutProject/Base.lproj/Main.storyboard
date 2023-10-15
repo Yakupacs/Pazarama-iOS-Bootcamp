@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DuI-vk-Z9J">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Homepage-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeVC" customModule="LayoutProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CoW-Vc-IIY">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CoW-Vc-IIY" secondAttribute="trailing" id="But-cE-yW5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CoW-Vc-IIY" secondAttribute="bottom" id="L5V-HF-HnL"/>
+                            <constraint firstItem="CoW-Vc-IIY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MyY-K8-mTb"/>
+                            <constraint firstItem="CoW-Vc-IIY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mtp-Dl-166"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Homepage" id="cat-MI-LHC"/>
+                    <connections>
+                        <outlet property="tableView" destination="CoW-Vc-IIY" id="Ywm-GV-HhE"/>
+                        <segue destination="5WH-O9-UDs" kind="show" identifier="toDetailsVC" id="Q7H-5c-r0B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980.91603053435108" y="-27.464788732394368"/>
+        </scene>
+        <!--DetailVC-->
+        <scene sceneID="csR-mW-6An">
+            <objects>
+                <viewController id="5WH-O9-UDs" customClass="DetailVC" customModule="LayoutProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TMs-9X-hlf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lisaSimpson" translatesAutoresizingMaskIntoConstraints="NO" id="Dpr-SA-AS1">
+                                <rect key="frame" x="0.0" y="113" width="393" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="hYM-uG-Y1u"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7be-s9-06N">
+                                <rect key="frame" x="10" y="523" width="373" height="285"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simpson Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="XCj-d5-nr8">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="88.333333333333329"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simpson Job" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="rKd-qw-t6X">
+                                        <rect key="frame" x="0.0" y="98.333333333333371" width="373" height="88.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simpson Age" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="PYX-Hv-vCo">
+                                        <rect key="frame" x="0.0" y="196.66666666666663" width="373" height="88.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7EV-Da-gzo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7EV-Da-gzo" firstAttribute="trailing" secondItem="Dpr-SA-AS1" secondAttribute="trailing" id="AqO-Ip-IUd"/>
+                            <constraint firstItem="7be-s9-06N" firstAttribute="leading" secondItem="7EV-Da-gzo" secondAttribute="leading" constant="10" id="ITC-cY-lns"/>
+                            <constraint firstItem="7be-s9-06N" firstAttribute="top" secondItem="Dpr-SA-AS1" secondAttribute="bottom" constant="10" id="UmO-R8-YuW"/>
+                            <constraint firstItem="Dpr-SA-AS1" firstAttribute="top" secondItem="7EV-Da-gzo" secondAttribute="top" constant="10" id="kTi-a0-Q8O"/>
+                            <constraint firstItem="Dpr-SA-AS1" firstAttribute="leading" secondItem="7EV-Da-gzo" secondAttribute="leading" id="oF1-9n-z07"/>
+                            <constraint firstItem="7EV-Da-gzo" firstAttribute="bottom" secondItem="7be-s9-06N" secondAttribute="bottom" constant="10" id="tgQ-Tp-4ZZ"/>
+                            <constraint firstItem="7EV-Da-gzo" firstAttribute="trailing" secondItem="7be-s9-06N" secondAttribute="trailing" constant="10" id="v8T-Gi-a9A"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sNI-1D-IhR"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="PYX-Hv-vCo" id="h6s-Fi-vWg"/>
+                        <outlet property="imageView" destination="Dpr-SA-AS1" id="62i-Vf-86K"/>
+                        <outlet property="jobLabel" destination="rKd-qw-t6X" id="hsH-BL-JKZ"/>
+                        <outlet property="nameLabel" destination="XCj-d5-nr8" id="DlM-FG-cdn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9v-nM-uR3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1802.2900763358778" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7vr-Xb-Nth">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DuI-vk-Z9J" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gq5-aM-WXX">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zTh-b9-SNG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTD-Ja-i3v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lisaSimpson" width="300" height="488"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
