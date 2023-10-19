@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA020C372ADF32690048022A /* TelefonAksesuari.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA020C362ADF32690048022A /* TelefonAksesuari.swift */; };
+		DA020C392ADF35820048022A /* TelefonAksesuariCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA020C382ADF35820048022A /* TelefonAksesuariCell.swift */; };
+		DA0AC8272ADD2A69008DC877 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC8262ADD2A69008DC877 /* MenuCell.swift */; };
+		DA0AC8292ADD2B6C008DC877 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC8282ADD2B6C008DC877 /* Menu.swift */; };
+		DA0AC82D2ADD4F37008DC877 /* Magaza.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC82C2ADD4F37008DC877 /* Magaza.swift */; };
+		DA0AC82F2ADD4FF7008DC877 /* MagazaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AC82E2ADD4FF7008DC877 /* MagazaCell.swift */; };
+		DA3276252ADD5DFF00016BCF /* ModaFirsatlari.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276242ADD5DFF00016BCF /* ModaFirsatlari.swift */; };
+		DA3276272ADD609F00016BCF /* ModaFirsatlariCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276262ADD609F00016BCF /* ModaFirsatlariCell.swift */; };
+		DA3276292ADD7CE600016BCF /* CepTelefonu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276282ADD7CE600016BCF /* CepTelefonu.swift */; };
+		DA32762B2ADD7F7E00016BCF /* CepTelefonuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32762A2ADD7F7E00016BCF /* CepTelefonuCell.swift */; };
+		DA32762D2ADDA12600016BCF /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32762C2ADDA12600016BCF /* CustomTabBarController.swift */; };
+		DA32762F2ADDA79D00016BCF /* KategorilerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA32762E2ADDA79D00016BCF /* KategorilerVC.swift */; };
+		DA3276312ADDA7A600016BCF /* FirsatlarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276302ADDA7A600016BCF /* FirsatlarVC.swift */; };
+		DA3276332ADDA7B000016BCF /* CuzdanimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276322ADDA7B000016BCF /* CuzdanimVC.swift */; };
+		DA3276352ADDA7B900016BCF /* HesabimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276342ADDA7B900016BCF /* HesabimVC.swift */; };
+		DA3276382ADDC1AC00016BCF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3276372ADDC1AC00016BCF /* CustomButton.swift */; };
+		DA52D22B2ADC86C0008496A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52D22A2ADC86C0008496A0 /* AppDelegate.swift */; };
+		DA52D22D2ADC86C0008496A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52D22C2ADC86C0008496A0 /* SceneDelegate.swift */; };
+		DA52D22F2ADC86C0008496A0 /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52D22E2ADC86C0008496A0 /* HomepageVC.swift */; };
+		DA52D2342ADC86C1008496A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA52D2332ADC86C1008496A0 /* Assets.xcassets */; };
+		DA52D2372ADC86C1008496A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA52D2352ADC86C1008496A0 /* LaunchScreen.storyboard */; };
+		DA8406F72ADFA9EA004BC5FE /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8406F62ADFA9EA004BC5FE /* CustomCollectionView.swift */; };
+		DAED27472AE12A2300B7A104 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED27462AE12A2300B7A104 /* CollectionView.swift */; };
+		DAED27492AE12A7300B7A104 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAED27482AE12A7300B7A104 /* ScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA020C362ADF32690048022A /* TelefonAksesuari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonAksesuari.swift; sourceTree = "<group>"; };
+		DA020C382ADF35820048022A /* TelefonAksesuariCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelefonAksesuariCell.swift; sourceTree = "<group>"; };
+		DA0AC8262ADD2A69008DC877 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DA0AC8282ADD2B6C008DC877 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		DA0AC82C2ADD4F37008DC877 /* Magaza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magaza.swift; sourceTree = "<group>"; };
+		DA0AC82E2ADD4FF7008DC877 /* MagazaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazaCell.swift; sourceTree = "<group>"; };
+		DA3276242ADD5DFF00016BCF /* ModaFirsatlari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModaFirsatlari.swift; sourceTree = "<group>"; };
+		DA3276262ADD609F00016BCF /* ModaFirsatlariCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModaFirsatlariCell.swift; sourceTree = "<group>"; };
+		DA3276282ADD7CE600016BCF /* CepTelefonu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CepTelefonu.swift; sourceTree = "<group>"; };
+		DA32762A2ADD7F7E00016BCF /* CepTelefonuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CepTelefonuCell.swift; sourceTree = "<group>"; };
+		DA32762C2ADDA12600016BCF /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		DA32762E2ADDA79D00016BCF /* KategorilerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategorilerVC.swift; sourceTree = "<group>"; };
+		DA3276302ADDA7A600016BCF /* FirsatlarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirsatlarVC.swift; sourceTree = "<group>"; };
+		DA3276322ADDA7B000016BCF /* CuzdanimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuzdanimVC.swift; sourceTree = "<group>"; };
+		DA3276342ADDA7B900016BCF /* HesabimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HesabimVC.swift; sourceTree = "<group>"; };
+		DA3276372ADDC1AC00016BCF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DA52D2272ADC86C0008496A0 /* PazaramaAppDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PazaramaAppDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA52D22A2ADC86C0008496A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA52D22C2ADC86C0008496A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA52D22E2ADC86C0008496A0 /* HomepageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageVC.swift; sourceTree = "<group>"; };
+		DA52D2332ADC86C1008496A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA52D2362ADC86C1008496A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA52D2382ADC86C1008496A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8406F62ADFA9EA004BC5FE /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
+		DAED27462AE12A2300B7A104 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		DAED27482AE12A7300B7A104 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA52D2242ADC86C0008496A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA02B89F2AE14FAF0006F722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA52D22A2ADC86C0008496A0 /* AppDelegate.swift */,
+				DA52D22C2ADC86C0008496A0 /* SceneDelegate.swift */,
+				DA52D2332ADC86C1008496A0 /* Assets.xcassets */,
+				DA52D2352ADC86C1008496A0 /* LaunchScreen.storyboard */,
+				DA52D2382ADC86C1008496A0 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA0AC8252ADD2A1E008DC877 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				DA0AC8282ADD2B6C008DC877 /* Menu.swift */,
+				DA0AC82C2ADD4F37008DC877 /* Magaza.swift */,
+				DA3276242ADD5DFF00016BCF /* ModaFirsatlari.swift */,
+				DA3276282ADD7CE600016BCF /* CepTelefonu.swift */,
+				DA020C362ADF32690048022A /* TelefonAksesuari.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DA0AC82A2ADD323A008DC877 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA0AC8262ADD2A69008DC877 /* MenuCell.swift */,
+				DA0AC82E2ADD4FF7008DC877 /* MagazaCell.swift */,
+				DA3276262ADD609F00016BCF /* ModaFirsatlariCell.swift */,
+				DA32762A2ADD7F7E00016BCF /* CepTelefonuCell.swift */,
+				DA020C382ADF35820048022A /* TelefonAksesuariCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA0AC82B2ADD323E008DC877 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA52D22E2ADC86C0008496A0 /* HomepageVC.swift */,
+				DA32762E2ADDA79D00016BCF /* KategorilerVC.swift */,
+				DA3276302ADDA7A600016BCF /* FirsatlarVC.swift */,
+				DA3276322ADDA7B000016BCF /* CuzdanimVC.swift */,
+				DA3276342ADDA7B900016BCF /* HesabimVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA3276362ADDC1A000016BCF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				DA3276372ADDC1AC00016BCF /* CustomButton.swift */,
+				DA8406F62ADFA9EA004BC5FE /* CustomCollectionView.swift */,
+				DA32762C2ADDA12600016BCF /* CustomTabBarController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		DA52D21E2ADC86C0008496A0 = {
+			isa = PBXGroup;
+			children = (
+				DA52D2292ADC86C0008496A0 /* PazaramaAppDesign */,
+				DA52D2282ADC86C0008496A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA52D2282ADC86C0008496A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA52D2272ADC86C0008496A0 /* PazaramaAppDesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA52D2292ADC86C0008496A0 /* PazaramaAppDesign */ = {
+			isa = PBXGroup;
+			children = (
+				DA0AC82B2ADD323E008DC877 /* Controller */,
+				DA0AC82A2ADD323A008DC877 /* View */,
+				DA0AC8252ADD2A1E008DC877 /* Entity */,
+				DA3276362ADDC1A000016BCF /* Custom */,
+				DAED27432AE129E900B7A104 /* Extension */,
+				DA02B89F2AE14FAF0006F722 /* Supporting Files */,
+			);
+			path = PazaramaAppDesign;
+			sourceTree = "<group>";
+		};
+		DAED27432AE129E900B7A104 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DAED27462AE12A2300B7A104 /* CollectionView.swift */,
+				DAED27482AE12A7300B7A104 /* ScrollView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA52D2262ADC86C0008496A0 /* PazaramaAppDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA52D23B2ADC86C1008496A0 /* Build configuration list for PBXNativeTarget "PazaramaAppDesign" */;
+			buildPhases = (
+				DA52D2232ADC86C0008496A0 /* Sources */,
+				DA52D2242ADC86C0008496A0 /* Frameworks */,
+				DA52D2252ADC86C0008496A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PazaramaAppDesign;
+			productName = PazaramaAppDesign;
+			productReference = DA52D2272ADC86C0008496A0 /* PazaramaAppDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA52D21F2ADC86C0008496A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					DA52D2262ADC86C0008496A0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = DA52D2222ADC86C0008496A0 /* Build configuration list for PBXProject "PazaramaAppDesign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA52D21E2ADC86C0008496A0;
+			productRefGroup = DA52D2282ADC86C0008496A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA52D2262ADC86C0008496A0 /* PazaramaAppDesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA52D2252ADC86C0008496A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52D2372ADC86C1008496A0 /* LaunchScreen.storyboard in Resources */,
+				DA52D2342ADC86C1008496A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA52D2232ADC86C0008496A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3276272ADD609F00016BCF /* ModaFirsatlariCell.swift in Sources */,
+				DAED27492AE12A7300B7A104 /* ScrollView.swift in Sources */,
+				DA0AC82D2ADD4F37008DC877 /* Magaza.swift in Sources */,
+				DA020C392ADF35820048022A /* TelefonAksesuariCell.swift in Sources */,
+				DA32762D2ADDA12600016BCF /* CustomTabBarController.swift in Sources */,
+				DA3276292ADD7CE600016BCF /* CepTelefonu.swift in Sources */,
+				DA3276252ADD5DFF00016BCF /* ModaFirsatlari.swift in Sources */,
+				DA52D22F2ADC86C0008496A0 /* HomepageVC.swift in Sources */,
+				DA32762B2ADD7F7E00016BCF /* CepTelefonuCell.swift in Sources */,
+				DA52D22B2ADC86C0008496A0 /* AppDelegate.swift in Sources */,
+				DAED27472AE12A2300B7A104 /* CollectionView.swift in Sources */,
+				DA32762F2ADDA79D00016BCF /* KategorilerVC.swift in Sources */,
+				DA0AC82F2ADD4FF7008DC877 /* MagazaCell.swift in Sources */,
+				DA0AC8272ADD2A69008DC877 /* MenuCell.swift in Sources */,
+				DA3276312ADDA7A600016BCF /* FirsatlarVC.swift in Sources */,
+				DA020C372ADF32690048022A /* TelefonAksesuari.swift in Sources */,
+				DA3276352ADDA7B900016BCF /* HesabimVC.swift in Sources */,
+				DA8406F72ADFA9EA004BC5FE /* CustomCollectionView.swift in Sources */,
+				DA3276382ADDC1AC00016BCF /* CustomButton.swift in Sources */,
+				DA52D22D2ADC86C0008496A0 /* SceneDelegate.swift in Sources */,
+				DA0AC8292ADD2B6C008DC877 /* Menu.swift in Sources */,
+				DA3276332ADDA7B000016BCF /* CuzdanimVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA52D2352ADC86C1008496A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA52D2362ADC86C1008496A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA52D2392ADC86C1008496A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA52D23A2ADC86C1008496A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA52D23C2ADC86C1008496A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YAHT2XZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PazaramaAppDesign/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pazarama;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakupacs.PazaramaAppDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA52D23D2ADC86C1008496A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7YAHT2XZPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PazaramaAppDesign/Supporting Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Pazarama;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yakupacs.PazaramaAppDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA52D2222ADC86C0008496A0 /* Build configuration list for PBXProject "PazaramaAppDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52D2392ADC86C1008496A0 /* Debug */,
+				DA52D23A2ADC86C1008496A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA52D23B2ADC86C1008496A0 /* Build configuration list for PBXNativeTarget "PazaramaAppDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52D23C2ADC86C1008496A0 /* Debug */,
+				DA52D23D2ADC86C1008496A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA52D21F2ADC86C0008496A0 /* Project object */;
+}
