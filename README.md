@@ -22,6 +22,5 @@
 
 | Video 1 | Screen 2 | Screen 3 |
 | ----------- | ---------------- | ---------------- |
-| <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/603ab26a-11af-4cae-a34a-817b35e940d1"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> |
-
+| <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/603ab26a-11af-4cae-a34a-817b35e940d1"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/1423e900-b5ec-4115-9e22-515fe5ff7189"> |
 
