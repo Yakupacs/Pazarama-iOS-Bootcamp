@@ -20,6 +20,8 @@
 
 ### 2. Pazarama App Homepage Design
 
-| Screen 1 | Screen 2 | Screen 3 |
+| Video 1 | Screen 2 | Screen 3 |
 | ----------- | ---------------- | ---------------- |
-| ![Screen 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/9a9415f3-8b47-4995-a780-c48830cb805f "Screen 1") | ![Favourite Screen](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024 "Screen") | ![Favourite Screen](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/0ed8d727-d5c6-47e2-83e1-36fc2868af78 "Screen") |
+| <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/603ab26a-11af-4cae-a34a-817b35e940d1"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> |
+
+
