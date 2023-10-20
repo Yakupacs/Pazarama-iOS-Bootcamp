@@ -9,6 +9,7 @@
 1. [Day 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day1) (OOP, Roman to Integer App)<br>
 2. [Day 2](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day2) (Programmatic UI, CollectionView, TableView)<br>
 3. [Homework 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Homework1) (Design, CollectionView, Singleton, Extension)
+4. [Day 3](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day3) (Firebase, URLSession)
 
 ## Screenshots
 
@@ -23,4 +24,10 @@
 | Video 1 | Screen 2 | Screen 3 |
 | ----------- | ---------------- | ---------------- |
 | <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/603ab26a-11af-4cae-a34a-817b35e940d1"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/95919a25-1601-408b-8b80-43cf1b498024"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/1423e900-b5ec-4115-9e22-515fe5ff7189"> |
+
+### 3. Firebase and URLSession App
+
+| Firebase | URLSession |
+| ----------- | ---------------- |
+| <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/3d6fd9c4-3eaa-4355-819b-3e29bd57afd6"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/fbf435d8-d18d-49d8-b0a9-5edcd8134d78"> |
 
