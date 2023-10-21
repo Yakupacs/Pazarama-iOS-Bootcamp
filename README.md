@@ -10,6 +10,7 @@
 2. [Day 2](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day2) (Programmatic UI, CollectionView, TableView)<br>
 3. [Homework 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Homework1) (Design, CollectionView, Singleton, Extension)
 4. [Day 3](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day3) (Firebase, URLSession)
+5. [Day 4](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day4) (URLSession, MVVM, RxSwift)
 
 ## Screenshots
 
