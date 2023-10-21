@@ -30,4 +30,4 @@
 
 | Firebase | URLSession | URLSession |
 | ----------- | ---------------- | ---------------- |
-| <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/3d6fd9c4-3eaa-4355-819b-3e29bd57afd6"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/fbf435d8-d18d-49d8-b0a9-5edcd8134d78"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/c28eb24b-187c-401a-8149-c2c1dcaefd6a"> |
+| <a href="google.com" target="_blank"><img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/3d6fd9c4-3eaa-4355-819b-3e29bd57afd6"></a> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/fbf435d8-d18d-49d8-b0a9-5edcd8134d78"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/c28eb24b-187c-401a-8149-c2c1dcaefd6a"> |
