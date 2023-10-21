@@ -28,7 +28,6 @@
 
 ### 3. Firebase and URLSession App
 
-| Firebase | URLSession |
-| ----------- | ---------------- |
-| <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/3d6fd9c4-3eaa-4355-819b-3e29bd57afd6"> | <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/fbf435d8-d18d-49d8-b0a9-5edcd8134d78"> |
-
+| Firebase | URLSession | URLSession |
+| ----------- | ---------------- | ---------------- |
+| <img width="250px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/3d6fd9c4-3eaa-4355-819b-3e29bd57afd6"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/fbf435d8-d18d-49d8-b0a9-5edcd8134d78"> | <img width="300px" src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/c28eb24b-187c-401a-8149-c2c1dcaefd6a"> |
