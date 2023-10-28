@@ -8,9 +8,6 @@
 import Foundation
 
 // Strategy Pattern
-protocol UserService{
-	func fetchUser(completion: @escaping (Result<User, Error>) -> ())
-}
 
 class UserServiceImplementation: UserService{
 	

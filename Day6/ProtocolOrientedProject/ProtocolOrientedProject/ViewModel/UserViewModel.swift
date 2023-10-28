@@ -12,7 +12,7 @@ class UserViewModel{
 	// Dependency Injection
 	private let userService: UserService
 	
-	var delegate: UserViewModelOutput?
+	var output: UserViewModelOutput?
 	
 	// Delegate Pattern
 	init(userService: UserService) {
@@ -23,9 +23,9 @@ class UserViewModel{
 		userService.fetchUser { result in
 			switch result{
 			case .success(let user):
-				self.delegate?.updateView(name: user.name, username: user.username, email: user.email)
+				self.output?.updateView(name: user.name, username: user.username, email: user.email)
 			case .failure(_):
-				self.delegate?.updateView(name: "No user", username: "", email: "")
+				self.output?.updateView(name: "No user", username: "", email: "")
 			}
 		}
 	}

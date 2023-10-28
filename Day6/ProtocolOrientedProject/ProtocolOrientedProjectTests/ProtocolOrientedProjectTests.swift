@@ -18,7 +18,7 @@ final class ProtocolOrientedProjectTests: XCTestCase {
 		userService = MockUserService()
         viewModel = UserViewModel(userService: userService)
 		output = MockUserViewModelOutput()
-		viewModel.delegate = output
+		viewModel.output = output
     }
 
     override func tearDownWithError() throws {

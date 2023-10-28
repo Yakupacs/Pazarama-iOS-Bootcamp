@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA534FE92AED61C0009F7CB8 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA534FE82AED61C0009F7CB8 /* UserService.swift */; };
 		DABC83E72AECFFE50048533F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC83E62AECFFE50048533F /* AppDelegate.swift */; };
 		DABC83E92AECFFE50048533F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC83E82AECFFE50048533F /* SceneDelegate.swift */; };
 		DABC83EB2AECFFE50048533F /* HomepageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABC83EA2AECFFE50048533F /* HomepageVC.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA534FE82AED61C0009F7CB8 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		DABC83E32AECFFE50048533F /* ProtocolOrientedProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolOrientedProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABC83E62AECFFE50048533F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABC83E82AECFFE50048533F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				DABC841C2AED039A0048533F /* UserServiceImplementation.swift */,
+				DA534FE82AED61C0009F7CB8 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				DABC841F2AED194D0048533F /* UserViewModel.swift in Sources */,
 				DABC83EB2AECFFE50048533F /* HomepageVC.swift in Sources */,
 				DABC84212AED1BF90048533F /* UserViewModelOutput.swift in Sources */,
+				DA534FE92AED61C0009F7CB8 /* UserService.swift in Sources */,
 				DABC841D2AED039A0048533F /* UserServiceImplementation.swift in Sources */,
 				DABC83E72AECFFE50048533F /* AppDelegate.swift in Sources */,
 				DABC83E92AECFFE50048533F /* SceneDelegate.swift in Sources */,

@@ -44,7 +44,7 @@ class HomepageVC: UIViewController, UserViewModelOutput {
 	init(viewModel: UserViewModel){
 		self.viewModel = viewModel
 		super.init(nibName: nil, bundle: nil)
-		self.viewModel.delegate = self
+		self.viewModel.output = self
 	}
 	
 	func updateView(name: String, username: String, email: String) {
