@@ -24,6 +24,7 @@ class HomepageCell: UITableViewCell {
 		label.textAlignment = .center
 		label.numberOfLines = 0
 		label.textColor = .gray
+		label.minimumScaleFactor = 0.5
 		return label
 	}()
 	
@@ -33,6 +34,7 @@ class HomepageCell: UITableViewCell {
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.textAlignment = .center
 		label.numberOfLines = 0
+		label.minimumScaleFactor = 0.5
 		return label
 	}()
 	
@@ -60,16 +62,22 @@ class HomepageCell: UITableViewCell {
 			usernameTitle.topAnchor.constraint(equalTo: photoImageView.bottomAnchor, constant: 10),
 			usernameTitle.leftAnchor.constraint(equalTo: leftAnchor, constant: 5),
 			usernameTitle.rightAnchor.constraint(equalTo: rightAnchor, constant: -10),
+			usernameTitle.heightAnchor.constraint(equalToConstant: 40),
 			
 			photoTitle.topAnchor.constraint(equalTo: usernameTitle.bottomAnchor),
 			photoTitle.leftAnchor.constraint(equalTo: leftAnchor, constant: 10),
 			photoTitle.rightAnchor.constraint(equalTo: rightAnchor, constant: -10),
+			photoTitle.heightAnchor.constraint(equalToConstant: 40),
 		])
 	}
 	
 	func setup(photo: Photo){
 		photoTitle.text = photo.title
 		usernameTitle.text = "@" + photo.ownername
-		photoImageView.sd_setImage(with: URL(string: photo.urlZ!)!)
+		if let urlZ = photo.urlZ{
+			photoImageView.sd_setImage(with: URL(string: urlZ)!)
+		}else if let urlN = photo.urlN{
+			photoImageView.sd_setImage(with: URL(string: urlN)!)
+		}
 	}
 }

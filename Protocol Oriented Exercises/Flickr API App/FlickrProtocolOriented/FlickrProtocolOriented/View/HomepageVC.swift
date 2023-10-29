@@ -8,7 +8,7 @@
 import UIKit
 
 class HomepageVC: UIViewController, PhotoViewModelOutput {
-
+	
 	var photoViewModel: PhotoViewModel?
 	var tableView = UITableView()
 	
@@ -27,19 +27,35 @@ class HomepageVC: UIViewController, PhotoViewModelOutput {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		view.backgroundColor = .white
-		setupTableView()
+		setupView()
 	}
-
+	
 	func viewUpdate(photos: [Photo]) {
 		DispatchQueue.main.async {
 			self.photos = photos
 			self.tableView.reloadData()
 		}
 	}
-	
-	func setupTableView(){
+}
+
+extension HomepageVC: UITableViewDelegate, UITableViewDataSource{
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+		return photos.count
+	}
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomepageCell
+		cell.setup(photo: photos[indexPath.row])
+		return cell
+	}
+	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+		return 350
+	}
+}
+
+// MARK: - Setup View
+extension HomepageVC{
+	func setupView(){
 		let label = UILabel()
 		label.font = UIFont(name: "Avenir", size: 25)
 		label.text = "Flickr Photo App"
@@ -67,19 +83,5 @@ class HomepageVC: UIViewController, PhotoViewModelOutput {
 			tableView.leftAnchor.constraint(equalTo: view.leftAnchor),
 			tableView.rightAnchor.constraint(equalTo: view.rightAnchor)
 		])
-	}
-}
-
-extension HomepageVC: UITableViewDelegate, UITableViewDataSource{
-	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return photos.count
-	}
-	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! HomepageCell
-		cell.setup(photo: photos[indexPath.row])
-		return cell
-	}
-	func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-		return 350
 	}
 }
