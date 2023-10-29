@@ -5,6 +5,18 @@
 ## Description
 <p>The iOS bootcamp organized by Pazarama and Coderspace, with Atıl Samancıoğlu as the instructor, includes lesson projects and homework projects.</p>
 
+## Technologies and Libraries
+- MVVM
+- Alamofire
+- URLSession
+- RxSwift
+- Singleton
+- Protocol Oriented Programming
+- Async, Await
+- FirebaseFirestore
+- FirebaseAuth
+- FirebaseStorage
+
 ## Table of Contents
 1. [Day 1](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day1) (OOP, Roman to Integer App)<br>
 2. [Day 2](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day2) (Programmatic UI, CollectionView, TableView)<br>
@@ -12,6 +24,7 @@
 4. [Day 3](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day3) (Firebase, URLSession)
 5. [Day 4](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day4) (URLSession, MVVM, RxSwift)
 6. [Day 5](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day5) (SwiftUI, Async, Await)
+7. [Day 6](https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/tree/main/Day6) (Protocol Oriented Programming, Unit and UI Tests)
 
 ## Screenshots
 
