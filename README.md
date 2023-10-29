@@ -48,6 +48,10 @@
 
 ### 4. Protocol Oriented Apps
 
+- Flickr API: <a href="https://www.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=89f071815e4147386eae6466ed6d5b44&format=json&nojsoncallback=1&extras=description,owner_name,icon_server,url_n,url_z">Flickr</a> <br>
+- Meal API: <a href="https://www.themealdb.com/api/json/v1/1/random.php">Meals</a> <br>
+- Posts API: <a href="https://jsonplaceholder.typicode.com/posts">Posts</a> <br>
+
 | Posts App | Flicker App | Meals App |
 | ----------- | ---------------- | ---------------- |
 | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/515ff5a2-d401-42b0-9cb8-cbae63fc6758"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/6dc8d284-6744-4ff2-b30e-64809a677ff1"> | <img src="https://github.com/Yakupacs/Pazarama-iOS-Bootcamp/assets/73075252/c6677456-39c7-42ad-a2bd-f70571cc1bf4"> |
